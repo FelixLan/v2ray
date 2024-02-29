@@ -19,10 +19,12 @@
    1. 推荐一下我自己用的[服务器厂商vultr](https://www.vultr.com/?ref=9594735)，特点是**免费更换ip，按需计费，部署简单，可以用支付宝结算**
 * 先下载一个ssh客户端，方便与服务器进行交互，推荐用**MobaXterm**，特点是**占用内存小，轻便好用**
 
-## 执行安装脚本(建议采用ubantu系统)
-`bash <(wget -qO- -o- https://git.io/v2ray.sh)`
+## 执行安装脚本(建议采用ubantu系统)   
 
-安装成功，如图所示：  
+`curl https://raw.githubusercontent.com/233boy/v2ray/master/install.sh | bash`   
+
+
+* 安装成功，如图所示：  
 ![image](https://github.com/FelixLan/v2ray/assets/44452818/6e961bb5-e493-42dd-a55c-e20b7136addb)   
 
 * 安装成功后，输出一系列服务端信息，先别急着配置客户端
