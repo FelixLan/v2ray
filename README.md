@@ -21,7 +21,9 @@
 
 ## 执行安装脚本(建议采用ubantu系统)   
 
-`curl https://raw.githubusercontent.com/FelixLan/v2ray/master/install.sh | bash`   
+```   
+curl https://raw.githubusercontent.com/FelixLan/v2ray/master/install.sh | bash
+```   
 
 
 * 安装成功，如图所示：  
